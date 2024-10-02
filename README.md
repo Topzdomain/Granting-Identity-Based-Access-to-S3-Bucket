@@ -129,45 +129,45 @@ Click on Next
 
 Creating User Identity For Bob
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob1.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob2.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob3.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob3.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob5.png" height="55%" width="75%"/>
 </p>
 
 Creating User Identity For Claire
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire1.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire2.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire3.png?raw=true" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire4.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire5.png" height="55%" width="75%"/>
 </p>
 
@@ -178,42 +178,42 @@ After creating users, the sign-in instructions are usually emailed to them, but 
 
 To validate the setup, I'll sign in to both Bob and Claire's accounts and try to access the S3 Bucket. Since Bob is a sales intern and the sales department is allowed access to the financial-info-s3 bucket but not the subfolder (confidential), then Bob should only be able to access and open/view all the files in the main S3 folder but not the confidential folder, while Claire should have full access to the main folder and confidential folder since she is an Accounts Intern.
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob-sign-in.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob-access1.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Bob Listing the S3 Bucket Financial-Info-S3</h5>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob-access2.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Bob Listing the Files and Folders in the S3 Bucket</h5>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/bob-deny-access.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Bob Denied Access into the Confidential Folder</h5>
 
 So far Bob has been unable to gain access to the confidential folder in the s3 bucket
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire-sign-in.png" height="55%" width="75%"/>
 </p>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire-access1.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Claire Listing the S3 Bucket Financial-Info-S3</h5>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire-access2.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Claire Listing the Files and Folders in the S3 Bucket</h5>
 
-<p align= "left">
+<p align= "center">
 <img src="https://github.com/Topzdomain/Granting-Identity-Based-Access-to-S3-Bucket/blob/main/screenshots/claire-access3.png" height="55%" width="75%"/>
 </p>
 <h5 align="center"> Claire Listing the Files and Folders in the S3 Bucket</h5>
